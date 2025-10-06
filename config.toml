@@ -1,4 +1,4 @@
-base_url = "https://example.com"
+base_url = "./"
 title = "Sample API"
 description = "Powerful, Reliable, and Easy to Integrate API"
 compile_sass = false
