@@ -1,6 +1,14 @@
-{% extends "base.html" %}
-
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample API</title>
+    <meta name="description" content="Powerful, Reliable, and Easy to Integrate API">
+    <link rel="stylesheet" href="https://example.com/style.css">
+</head>
+<body>
+    
 <div class="container">
     <!-- Header -->
     <header class="header">
@@ -8,9 +16,9 @@
             <h1>Sample API</h1>
         </div>
         <nav class="nav">
-            <a href="{{ config.extra.docs_url }}" target="_blank" rel="noopener">Documentation</a>
+            <a href="https:&#x2F;&#x2F;docs.example.com" target="_blank" rel="noopener">Documentation</a>
             <a href="#contact">Contact</a>
-            <a href="{{ config.extra.signup_url }}" class="btn-primary" target="_blank" rel="noopener">Get Started</a>
+            <a href="https:&#x2F;&#x2F;app.example.com&#x2F;signup" class="btn-primary" target="_blank" rel="noopener">Get Started</a>
         </nav>
     </header>
 
@@ -20,7 +28,7 @@
         <p class="hero-subtitle">Powerful, Reliable, and Easy to Integrate</p>
         <p class="hero-description">Transform your applications with Sample API - a robust solution designed to streamline your development process and deliver exceptional results.</p>
         <div class="hero-actions">
-            <a href="{{ config.extra.signup_url }}" class="btn-primary" target="_blank" rel="noopener">Get Started</a>
+            <a href="https:&#x2F;&#x2F;app.example.com&#x2F;signup" class="btn-primary" target="_blank" rel="noopener">Get Started</a>
             <a href="#contact" class="btn-secondary">Contact Us</a>
         </div>
     </section>
@@ -153,9 +161,9 @@
         <div class="contact-grid">
             <div class="contact-item">
                 <h3>Email</h3>
-                <p><a href="mailto:{{ config.extra.email_contact }}">{{ config.extra.email_contact }}</a></p>
-                <p><strong>Support:</strong> <a href="mailto:{{ config.extra.email_support }}">{{ config.extra.email_support }}</a></p>
-                <p><strong>Business:</strong> <a href="mailto:{{ config.extra.email_business }}">{{ config.extra.email_business }}</a></p>
+                <p><a href="mailto:contact@example.com">contact@example.com</a></p>
+                <p><strong>Support:</strong> <a href="mailto:support@example.com">support@example.com</a></p>
+                <p><strong>Business:</strong> <a href="mailto:business@example.com">business@example.com</a></p>
             </div>
             <div class="contact-item">
                 <h3>Office Hours</h3>
@@ -164,9 +172,9 @@
             <div class="contact-item">
                 <h3>Connect With Us</h3>
                 <p>
-                    <a href="{{ config.extra.github }}" target="_blank" rel="noopener">GitHub</a> |
-                    <a href="{{ config.extra.twitter }}" target="_blank" rel="noopener">Twitter</a> |
-                    <a href="{{ config.extra.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;example" target="_blank" rel="noopener">GitHub</a> |
+                    <a href="https:&#x2F;&#x2F;twitter.com&#x2F;example" target="_blank" rel="noopener">Twitter</a> |
+                    <a href="https:&#x2F;&#x2F;linkedin.com&#x2F;company&#x2F;example" target="_blank" rel="noopener">LinkedIn</a>
                 </p>
             </div>
         </div>
@@ -177,9 +185,9 @@
         <h2>Ready to Get Started?</h2>
         <p>Join thousands of developers who trust Sample API to power their applications.</p>
         <div class="cta-actions">
-            <a href="{{ config.extra.signup_url }}" class="btn-primary" target="_blank" rel="noopener">Create Account</a>
-            <a href="{{ config.extra.pricing_url }}" class="btn-secondary" target="_blank" rel="noopener">View Pricing</a>
-            <a href="mailto:{{ config.extra.email_business }}" class="btn-secondary">Contact Sales</a>
+            <a href="https:&#x2F;&#x2F;app.example.com&#x2F;signup" class="btn-primary" target="_blank" rel="noopener">Create Account</a>
+            <a href="https:&#x2F;&#x2F;example.com&#x2F;pricing" class="btn-secondary" target="_blank" rel="noopener">View Pricing</a>
+            <a href="mailto:business@example.com" class="btn-secondary">Contact Sales</a>
         </div>
     </section>
 
@@ -188,4 +196,6 @@
         <p>&copy; 2025 Sample API. All rights reserved.</p>
     </footer>
 </div>
-{% endblock content %}
+
+</body>
+</html>
